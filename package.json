@@ -1,0 +1,21 @@
+{
+  "name": "my-discord-bot",
+  "version": "1.0.0",
+  "description": "Discord bot with music and user tracker",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "YourName",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "moment-timezone": "^0.5.43",
+    "@discordjs/voice": "^0.14.0",
+    "ytdl-core": "^4.11.1",
+    "youtube-sr": "^4.2.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
